@@ -1,0 +1,99 @@
+@import url("brevcss.cs");
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: red;
+	width: 100%;
+	top: 0px;
+	position: fixed;
+}
+
+.logo {
+	float: left;
+	font-family: "helvetica";
+	font-size: 15px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-family: "helvetica";
+}
+
+
+
+.nav li {
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	padding-top: 11px;
+}
+
+.nav ul a {
+	font-size: 20px;
+
+}
+
+.nav {
+	float: right;
+}
+
+.content {
+	padding-top: 90px;
+}
+
+.profil-pic {
+	border-radius: 3%;
+	border: 1px solid #ddd;
+    float: right;
+}
+
+.boxV {
+	width: 500px;
+	height: auto;
+	float: left;
+}
+
+.boxH {
+	margin-left: 10px;
+	width: 450px;
+	height: auto;
+	float: left;
+}
+
+.boxV p {
+	font-family: helvetica;
+	word-wrap: break-word;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+p span {
+	display: block;
+}
+
+.kunskapBox, .kunskapBox2 {
+	float: left;
+	margin-left: 90px;
+}
+
+.kunskapBox a {
+	color: black;
+}
+
+.kunskapBox li {
+
+}
